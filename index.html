@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bill Gates biography</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <meta name="description" content="This is a full biography of bill gates">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keywords" content="Bill gates, entrepeneur,startup,microsoft">
+        <meta name="author" content="Ariel Rocha Vallejos @arielTeToca">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="scripts/main.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Bill Gates</h1>
+            <img src="billbiography.jpg">
+            <p id="quote">
+                “Don’t compare yourself with anyone in this world… if you do so, you are insulting yourself.”
+            </p>
+            <p id="founder">
+                Bill Gates, founder of Microsoft...
+            </p>
+        </header>
+        <div id="main-page">
+            <p><button onclick="functionBiography()">Who am i?</button></p>
+            <p class="text" id="mini-biography">
+                Bill Gates is a technologist, business leader, and philanthropist. He grew up in Seattle, Washington, with an amazing and supportive family who encouraged his interest in computers at an early age. He dropped out of college to start Microsoft with his childhood friend Paul Allen. He married Melinda French in 1994 and they have three children. Today, Bill and Melinda Gates co-chair the charitable foundation bearing their names and are working together to give their wealth back to society.
+                His dad, William H. Gates II, is a Seattle attorney and one of the co-chairs of the Bill & Melinda Gates Foundation. His late mother, Mary Gates, was a schoolteacher, University of Washington regent, and chairwoman of United Way International.
+            </p>
+            <p><button onclick="history()">Microsoft History</button></p>
+            <p class="text" id="historyMicrosoft">
+                On April 4, 1975, at a time when most Americans used typewriters, childhood friends Bill Gates and Paul Allen found Microsoft, a company that makes computer software. Originally based in Albuquerque, New Mexico, Microsoft relocated to Washington State in 1979 and eventually grew into a major multinational technology corporation. In 1987, the year after Microsoft went public, 31-year-old Gates became the world’s youngest billionaire.
+            </p>
+            <p><button onclick="youth()">Some tips for the younger generation</button></p>
+            <p class="text">
+                <ul id="youth-people">
+                    <li class="list">Curiosity is key, expand your curiosity.</li>
+                    <li class="list">Your exposure from a young age to the realities of the world is a super big things</li>
+                    <li class="list">We start Life with many big dreams
+                        <br>Note:According to a study, out of 60 people who are planning to start their own business right now,<br> only one of them will ever start anything. <br>Not only business people generally hate the Pains of taking action so much that even when they try to take action,<br> the first failure or second, send them back to their comfort zone.
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <script>
+            var a  = document.getElementById("mini-biography");
+            var b  = document.getElementById("historyMicrosoft");
+            var c = document.getElementById("youth-people");
+            a.style.display = "none";
+            b.style.display = "none";
+            c.style.display ="none";
+        </script>
+        <footer class="page-footer">
+            <ul>
+                <li class="white-circle">
+                    <a href="https://www.instagram.com/thisisbillgates/" target="_blank"><img src="instagram.png"></a>
+                </li>
+                <li class="white-circle">
+                    <a href="https://www.facebook.com/BillGates/" target="_blank"><img src="facebook.png"></a>
+                </li>
+                <li class="white-circle">
+                    <a href="https://www.youtube.com/user/thegatesnotes" target="_blank"><img src="youtube.png"></a>
+                </li>
+                <li class="white-circle">
+                    <a href="https://www.gatesnotes.com/" target="_blank"><img src="www.png"></a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
